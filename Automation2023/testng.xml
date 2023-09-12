@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="myTestSuite" parallel="tests">
+  <test thread-count="5" name="Sep2023SmokeChecks">
+    <classes>
+      <class name="automation.TestNGDemo1"/>
+      <class name="automation.TestNGDemo2"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  <test thread-count="5" name="Sep2023Regression">
+    <classes>
+      <class name="automation.TestNGDemo3"/>
+      <class name="automation.TestNGDemo4"/>
+    </classes>
+  </test> <!-- Test -->
+  
+  
+</suite> <!-- Suite -->
